@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Background - transparent -->
+  <rect width="400" height="200" fill="transparent"/>
+  
+  <!-- Exellar Logo -->
+  <g transform="translate(100, 60)">
+    <!-- Three vertical bars logo with gradient -->
+    <g>
+      <rect x="0" y="0" width="15" height="60" fill="url(#barGradient)" rx="2" ry="2"/>
+      <rect x="25" y="10" width="15" height="60" fill="url(#barGradient)" rx="2" ry="2"/>
+      <rect x="50" y="0" width="15" height="60" fill="url(#barGradient)" rx="2" ry="2"/>
+    </g>
+    
+    <!-- Text - EXELLAR -->
+    <text x="85" y="30" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#2C2859">EXELLAR</text>
+    
+    <!-- Text - CONSTRUCTION LLP -->
+    <text x="85" y="50" font-family="Arial, sans-serif" font-size="14" fill="#7A2230">CONSTRUCTION LLP</text>
+    
+    <!-- Tagline -->
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="12" fill="#6C757D" font-style="italic">Building Trust Over Generations</text>
+  </g>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7A2230"/>
+      <stop offset="100%" style="stop-color:#2C2859"/>
+    </linearGradient>
+  </defs>
+</svg> 

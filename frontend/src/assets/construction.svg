@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Buildings -->
+  <g id="buildings">
+    <!-- Skyscrapers -->
+    <rect x="140" y="180" width="40" height="220" fill="#8e9aaf"/>
+    <rect x="190" y="150" width="50" height="250" fill="#4d7ea8"/>
+    <rect x="195" y="155" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="195" y="175" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="195" y="195" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="210" y="155" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="210" y="175" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="210" y="195" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="225" y="155" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="225" y="175" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="225" y="195" width="10" height="15" fill="#a5d8ff" x="5" y="0" />
+    <rect x="250" y="120" width="60" height="280" fill="#3d5a80"/>
+    <rect x="255" y="125" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="270" y="125" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="285" y="125" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="300" y="125" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="255" y="140" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="270" y="140" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="285" y="140" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="300" y="140" width="10" height="10" fill="#a5d8ff" x="5" y="0" />
+    <rect x="320" y="180" width="30" height="220" fill="#6c757d"/>
+    <rect x="360" y="200" width="45" height="200" fill="#5a7d7c"/>
+    <rect x="60" y="230" width="70" height="170" fill="#adb5bd"/>
+    <g id="residential-building">
+      <rect x="10" y="250" width="40" height="150" fill="#ced4da"/>
+      <rect x="15" y="255" width="5" height="8" fill="#dee2e6"/>
+      <rect x="25" y="255" width="5" height="8" fill="#dee2e6"/>
+      <rect x="35" y="255" width="5" height="8" fill="#dee2e6"/>
+      <rect x="15" y="268" width="5" height="8" fill="#dee2e6"/>
+      <rect x="25" y="268" width="5" height="8" fill="#dee2e6"/>
+      <rect x="35" y="268" width="5" height="8" fill="#dee2e6"/>
+      <rect x="15" y="281" width="5" height="8" fill="#dee2e6"/>
+      <rect x="25" y="281" width="5" height="8" fill="#dee2e6"/>
+      <rect x="35" y="281" width="5" height="8" fill="#dee2e6"/>
+    </g>
+  </g>
+
+  <!-- Trees -->
+  <g id="trees">
+    <ellipse cx="100" cy="240" rx="70" ry="30" fill="#52b788"/>
+    <ellipse cx="160" cy="250" rx="80" ry="20" fill="#40916c"/>
+    <ellipse cx="40" cy="250" rx="50" ry="25" fill="#2d6a4f"/>
+  </g>
+
+  <!-- Crane -->
+  <g id="crane">
+    <rect x="240" y="90" width="5" height="100" fill="#adb5bd"/>
+    <rect x="235" y="90" width="15" height="10" fill="#6c757d"/>
+    <rect x="240" y="60" width="5" height="30" fill="#ced4da" transform="rotate(30, 240, 90)"/>
+    <rect x="160" y="90" width="90" height="5" fill="#fca311"/>
+    <circle cx="160" cy="92" r="7" fill="#e5e5e5"/>
+    <rect x="158" y="92" width="4" height="20" fill="#6c757d"/>
+    <rect x="156" y="112" width="8" height="8" fill="#495057"/>
+    <rect x="245" y="92" width="60" height="3" fill="#e5e5e5" transform="rotate(25, 240, 92)"/>
+    <circle cx="240" cy="90" r="5" fill="#fca311"/>
+    <rect x="215" y="65" width="10" height="10" fill="#495057"/>
+    <circle cx="220" cy="60" r="5" fill="#fca311"/>
+    <line x1="220" y1="60" x2="240" y2="30" stroke="#e5e5e5" stroke-width="2"/>
+    
+    <!-- Construction worker -->
+    <circle cx="160" cy="80" r="5" fill="#ffba08"/>
+    <rect x="157" y="85" width="6" height="7" fill="#3a86ff"/>
+    <line x1="160" y1="92" x2="155" y2="100" stroke="#000" stroke-width="1"/>
+    <line x1="160" y1="92" x2="165" y2="100" stroke="#000" stroke-width="1"/>
+  </g>
+
+  <!-- Background cranes (silhouettes) -->
+  <g id="background-cranes" opacity="0.3">
+    <rect x="400" y="100" width="3" height="80" fill="#adb5bd"/>
+    <rect x="350" y="100" width="70" height="3" fill="#adb5bd"/>
+    <rect x="400" y="80" width="3" height="20" fill="#adb5bd" transform="rotate(30, 400, 100)"/>
+    <rect x="405" y="100" width="30" height="2" fill="#adb5bd" transform="rotate(25, 400, 100)"/>
+    
+    <rect x="450" y="120" width="2" height="60" fill="#adb5bd"/>
+    <rect x="420" y="120" width="50" height="2" fill="#adb5bd"/>
+    <rect x="450" y="105" width="2" height="15" fill="#adb5bd" transform="rotate(30, 450, 120)"/>
+    <rect x="452" y="120" width="20" height="1" fill="#adb5bd" transform="rotate(25, 450, 120)"/>
+  </g>
+</svg> 

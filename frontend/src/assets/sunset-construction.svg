@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffeeba;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="500" cy="150" r="60" fill="#ffe082" opacity="0.7"/>
+  
+  <!-- Mountains in background -->
+  <path d="M0,400 Q150,300 250,350 Q350,300 450,350 Q550,280 650,350 Q750,300 850,350 Q950,300 1000,350 L1000,600 L0,600 Z" fill="#d9c8b4" opacity="0.4"/>
+  
+  <!-- City buildings silhouettes -->
+  <g fill="#8d6e63" opacity="0.6">
+    <!-- Left buildings -->
+    <rect x="50" y="280" width="50" height="320"/>
+    <rect x="100" y="350" width="30" height="250"/>
+    <rect x="130" y="320" width="40" height="280"/>
+    <rect x="170" y="380" width="20" height="220"/>
+    <rect x="190" y="300" width="35" height="300"/>
+    
+    <!-- Center buildings -->
+    <rect x="350" y="250" width="60" height="350"/>
+    <rect x="410" y="200" width="80" height="400"/>
+    <rect x="490" y="300" width="40" height="300"/>
+    <rect x="530" y="270" width="50" height="330"/>
+    
+    <!-- Right buildings -->
+    <rect x="700" y="270" width="55" height="330"/>
+    <rect x="755" y="350" width="35" height="250"/>
+    <rect x="790" y="290" width="60" height="310"/>
+    <rect x="850" y="320" width="45" height="280"/>
+    <rect x="895" y="250" width="40" height="350"/>
+  </g>
+  
+  <!-- Cranes -->
+  <g fill="#ffc107" stroke="#e0a800" stroke-width="1">
+    <!-- Left crane -->
+    <rect x="75" y="270" width="5" height="190"/>
+    <rect x="45" y="270" width="60" height="5"/>
+    <rect x="75" y="240" width="3" height="30"/>
+    <line x1="45" y1="272" x2="75" y2="240" stroke="#e0a800" stroke-width="2"/>
+    <rect x="42" y="272" width="3" height="80"/>
+    
+    <!-- Center crane -->
+    <rect x="370" y="245" width="5" height="140"/>
+    <rect x="350" y="245" width="40" height="4"/>
+    <rect x="370" y="230" width="3" height="15"/>
+    <line x1="350" y1="247" x2="370" y2="230" stroke="#e0a800" stroke-width="2"/>
+    <rect x="349" y="247" width="2" height="40"/>
+    
+    <!-- Right crane -->
+    <rect x="790" y="285" width="5" height="150"/>
+    <rect x="770" y="285" width="40" height="4"/>
+    <rect x="790" y="265" width="3" height="20"/>
+    <line x1="770" y1="287" x2="790" y2="265" stroke="#e0a800" stroke-width="2"/>
+    <rect x="768" y="287" width="3" height="60"/>
+  </g>
+  
+  <!-- Construction elements -->
+  <g opacity="0.8">
+    <!-- Scaffolding lines -->
+    <line x1="400" y1="200" x2="400" y2="400" stroke="#9e9e9e" stroke-width="1"/>
+    <line x1="410" y1="200" x2="410" y2="400" stroke="#9e9e9e" stroke-width="1"/>
+    <line x1="490" y1="200" x2="490" y2="400" stroke="#9e9e9e" stroke-width="1"/>
+    
+    <!-- Horizontal scaffolding -->
+    <line x1="400" y1="250" x2="490" y2="250" stroke="#9e9e9e" stroke-width="1"/>
+    <line x1="400" y1="300" x2="490" y2="300" stroke="#9e9e9e" stroke-width="1"/>
+    <line x1="400" y1="350" x2="490" y2="350" stroke="#9e9e9e" stroke-width="1"/>
+  </g>
+  
+  <!-- Suspended loads -->
+  <rect x="50" y="310" width="20" height="10" fill="#bdbdbd"/>
+  <line x1="60" y1="272" x2="60" y2="310" stroke="#9e9e9e" stroke-width="1"/>
+  
+  <rect x="770" y="320" width="15" height="15" fill="#bdbdbd"/>
+  <line x1="777" y1="287" x2="777" y2="320" stroke="#9e9e9e" stroke-width="1"/>
+</svg> 
